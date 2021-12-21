@@ -1,8 +1,9 @@
 import { Logo } from './logo'
+import { h, Fragment } from "preact";
 
 export function App() {
   return (
-    <>
+    <Fragment>
       <Logo />
       <p>Hello Vite + Preact!</p>
       <p>
@@ -15,6 +16,6 @@ export function App() {
           Learn Preact
         </a>
       </p>
-    </>
+    </Fragment>
   )
 }
